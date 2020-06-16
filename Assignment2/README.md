@@ -1,4 +1,4 @@
-Ans 2 (
+# Analysis: 
 # a) Clearly, I have analysed that with stopwords condition performed better.
 ### Reason: TF-IDF weights the words by how frequently we see the word in entire training set as compared to their frequency in the specific line or document we take. So, even if words seem to be useless,they may be valuable in the correct classification. Also removing stopwords make us loose some information. This loss of the information could be the prime reason of observing a little drop in accuracy. TF-IDF handles useless words itself by giving them low weights and hence supressing them. So removal of stopwords although makes dataset less noisy for TF-IDF but it leads to decrease in performance due to loss of valuable information.
 
