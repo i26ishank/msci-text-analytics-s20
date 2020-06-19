@@ -12,7 +12,7 @@ def main(input_path_txt_file):
     for i in s:
     
         result_n = my_model.most_similar(str(i), topn=20)
-        print(f"20 most similar words to {i} is:")
+        print(f"20 most similar words to {i} are:")
         print("\n")
         print(result_n)
         print("\n")
