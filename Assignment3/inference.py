@@ -1,10 +1,10 @@
 from gensim.models import Word2Vec
 import sys
 import os
-def main(path):
+def main(input_txt_file_path):
     my_model = Word2Vec.load('my_model.model')
     al=[]
-    with open(str(path),'r') as q:
+    with open(str(input_txt_file_path),'r') as q:
         s=q.read().split("\n")
     # al.append(s)
     print(s)
