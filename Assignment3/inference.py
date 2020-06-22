@@ -3,7 +3,7 @@ import sys
 import os
 # Function to calculate similar words to any word using word2vec model we trained
 def main(input_path_txt_file):
-    my_model = Word2Vec.load('my_model.model')
+    my_model = Word2Vec.load('data\\my_model.model')
     s=[]
     with open(str(input_path_txt_file),'r') as q:
         s=q.read().split("\n")
