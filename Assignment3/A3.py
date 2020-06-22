@@ -27,12 +27,12 @@ def do(path):
     # access vector for one word
     # print(model['sentence'])
     # save model
-    my_model.save('my_model.model')
+    my_model.save(path+'my_model.model')
     # load model
     # new_model = Word2Vec.load('model.bin')
     # print(new_model)
     # load model
-    my_model = Word2Vec.load('my_model.model')
+    my_model = Word2Vec.load(path+'my_model.model')
 
     # Finding 20 most similar words  to good and bad along with its value 
     print("20 most similar words to 'good' are:")
