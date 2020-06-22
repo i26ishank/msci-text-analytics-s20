@@ -4,6 +4,6 @@
 
 you will be able to run A3.py from main file by command line arguement like:
  python a3.py data_folder path(say data/) . 
- Although you will be able to run "inference.py" seperately by command like(python inference.py path_of_text_file(like python inference.py data/try.txt) 
+ Although you will be able to run "inference.py" separately by command like(python inference.py path_of_text_file(like python inference.py data/try.txt) 
 
 I have tried to be as close to the guidelines as possible. However if there is any mistake of my representation of guidelines, mention in feedback and i will take care of it in next assignment. Thanks again for your continued help.
