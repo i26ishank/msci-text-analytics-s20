@@ -18,7 +18,7 @@ def do(path):
         b.append(i[1:])
 
     # train model
-    my_model = Word2Vec(b,workers=6,iter=50,min_count=1,size=300)
+    my_model = Word2Vec(b,workers=6,iter=50,min_count=1,size=300,window=6)
     # summarize the loaded model
     print(my_model)
     # summarize vocabulary
