@@ -160,7 +160,7 @@ def do_it(path1):
   res=my_classifier.evaluate(X_test_with_stopwords,Y_test_with_stopwords)[1]
   print(f"Accuracy of model when test Test is taken  : {res*100} ")
   # Saving the model
-  #my_classifier.save('data/nn_tanh.model')
+  my_classifier.save('data/nn_tanh.model')
 
   # Classification accuracy result in a table
   Table_o= table.Figure(data=[table.Table(header=dict(values=
@@ -171,7 +171,7 @@ def do_it(path1):
                   [77.54,81.10,75.39,71.93,66.63,75.51,77.01,77.15,76.06,76.18,77.33],
                   [0.0005,0.0005,0.005,0.05,0.5,0.0005,0.0005,0.0005,0.0005,0.0005,0],
                   [0.2,0.2,0.2,0.2,0.2,0.1,0.3,0.4,0.5,0.6,0.2],
-                  ['False','True','False','False','False','False','False','False','False','False']      ]))
+                  ['False','True','False','False','False','False','False','False','False','False','False']      ]))
                       ])
   Table_o.show()  
 
